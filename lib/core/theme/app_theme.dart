@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/core/color/colors.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:portfolio/core/color/colors.dart';
 
 class AppTheme {
   static ThemeData themeData(bool isDarkTheme, BuildContext context) {
