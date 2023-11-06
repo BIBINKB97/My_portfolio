@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/utils/project_utils.dart';
-import 'package:mysite/app/widgets/custom_text_heading.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:portfolio/app/utils/project_utils.dart';
+import 'package:portfolio/app/widgets/custom_text_heading.dart';
+import 'package:portfolio/changes/links.dart';
+import 'package:portfolio/changes/strings.dart';
+import 'package:portfolio/core/configs/others/space.dart';
+import 'package:portfolio/core/util/constants.dart';
+
 import 'package:sizer/sizer.dart';
 
 import 'widgets/project_card.dart';
