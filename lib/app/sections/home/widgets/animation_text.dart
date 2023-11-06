@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/configs/configs.dart';
+import 'package:portfolio/changes/strings.dart';
+import 'package:portfolio/core/configs/others/app_typography.dart';
+
 
 List<TyperAnimatedText> desktopList = [
   TyperAnimatedText(animationtxt1,
