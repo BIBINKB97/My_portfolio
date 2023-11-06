@@ -1,6 +1,6 @@
 String hellotag = '''Hi there, Welcome to My Space  ''';
 
-String yourname = "I'm Justin Thomas,";
+String yourname = "I'm Bibin K B,";
 // String hometitle2 = "A Mobile Application\nDeveloper";
 
 String animationtxt1 = " Flutter Developer";
