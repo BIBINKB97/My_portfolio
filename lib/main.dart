@@ -1,17 +1,7 @@
 import 'package:flutter/material.dart';
+import 'my_site.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const MySite());
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Portfolio',
-      debugShowCheckedModeBanner: false,
-    );
-  }
-} 

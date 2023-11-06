@@ -7,7 +7,6 @@ import 'package:portfolio/changes/strings.dart';
 import 'package:portfolio/core/animations/entrance_fader.dart';
 import 'package:portfolio/core/animations/zoom_animation.dart';
 import 'package:portfolio/core/configs/configs.dart';
-import 'package:portfolio/core/configs/others/space.dart';
 import 'package:portfolio/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;

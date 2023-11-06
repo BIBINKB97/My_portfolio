@@ -1,3 +1,3 @@
 class StaticImages {
-  static const String hi = 'assets/hi.gif';
+  static const String hi = 'assets/gif/hi.gif';
 }

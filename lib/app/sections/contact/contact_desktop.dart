@@ -6,7 +6,6 @@ import 'package:portfolio/changes/strings.dart';
 import 'package:portfolio/core/color/colors.dart';
 import 'package:portfolio/core/configs/configs.dart';
 import 'package:portfolio/core/util/constants.dart';
-
 import 'package:sizer/sizer.dart';
 
 class ContactDesktop extends StatelessWidget {

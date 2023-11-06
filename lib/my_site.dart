@@ -9,7 +9,6 @@ import 'package:portfolio/core/theme/cubit/theme_cubit.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
 
-
 class MySite extends StatelessWidget {
   const MySite({Key? key}) : super(key: key);
 
@@ -29,7 +28,7 @@ class MySite extends StatelessWidget {
           return Sizer(builder: (context, orientation, deviceType) {
             return MaterialApp(
               debugShowCheckedModeBanner: false,
-              title: 'Sudesh',
+              title: 'My Portfolio ',
               theme: AppTheme.themeData(state.isDarkThemeOn, context),
               initialRoute: "/",
               routes: {"/": (context) => const NChecking()},
