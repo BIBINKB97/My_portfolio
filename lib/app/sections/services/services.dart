@@ -4,6 +4,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:portfolio/app/utils/services_utils.dart';
 import 'package:portfolio/app/widgets/custom_text_heading.dart';
 import 'package:portfolio/changes/strings.dart';
+import 'package:portfolio/core/color/colors.dart';
+import 'package:portfolio/core/configs/configs.dart';
 import 'package:portfolio/core/configs/others/space.dart';
 import 'package:portfolio/core/res/responsive.dart';
 
