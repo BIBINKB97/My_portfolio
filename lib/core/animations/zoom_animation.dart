@@ -13,7 +13,6 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
     with TickerProviderStateMixin {
   late AnimationController _controller;
   late AnimationController _controller2;
-  late final Animation<AlignmentGeometry> _alignAnimation;
   late Animation sizeAnimation;
 
   @override
@@ -35,16 +34,6 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
       duration: const Duration(milliseconds: 3000),
       vsync: this,
     )..repeat(reverse: true);
-
-    _alignAnimation = Tween<AlignmentGeometry>(
-      begin: Alignment.topCenter,
-      end: Alignment.bottomCenter,
-    ).animate(
-      CurvedAnimation(
-        parent: _controller2,
-        curve: Curves.easeInOutCubic,
-      ),
-    );
   }
 
   @override
