@@ -99,7 +99,7 @@ class MainPage extends StatelessWidget {
                   alignment: Alignment.center,
                   // BG01.png
                   child: Image.asset(
-                    'assets/images/5424482.JPG',
+                    'assets/images/BG.jpg',
                     opacity: const AlwaysStoppedAnimation<double>(0.2),
                     width: width,
                     height: height,

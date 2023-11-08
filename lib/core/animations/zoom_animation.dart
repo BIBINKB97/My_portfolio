@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/app/widgets/custom_outline.dart';
+import 'package:portfolio/core/color/colors.dart';
 import 'package:portfolio/core/configs/configs.dart';
 
 class ZoomAnimations extends StatefulWidget {
@@ -46,41 +47,18 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    var theme = Theme.of(context);
-
     return SizedBox(
       width: size.width / 4,
       height: size.width / 4,
-      child: CustomOutline(
-        strokeWidth: 5,
-        radius: size.width * 0.2,
-        padding: const EdgeInsets.all(5),
-        width: size.width * sizeAnimation.value,
-        height: size.width * sizeAnimation.value,
-        gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              theme.secondaryColor,
-              theme.secondaryColor.withOpacity(0),
-              theme.primaryColor.withOpacity(0.1),
-              theme.primaryColor
-            ],
-            stops: const [
-              0.2,
-              0.4,
-              0.6,
-              1
-            ]),
-        child: Container(
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: Colors.black.withOpacity(0.8),
-            image: const DecorationImage(
-              fit: BoxFit.cover,
-              alignment: Alignment.bottomLeft,
-              image: AssetImage('assets/images/me.jpeg'),
-            ),
+      child: Container(
+        decoration: BoxDecoration(
+          border: Border.all(color: primaryColor),
+          shape: BoxShape.circle,
+          color: Colors.black.withOpacity(0.8),
+          image: const DecorationImage(
+            fit: BoxFit.cover,
+            alignment: Alignment.bottomLeft,
+            image: AssetImage('assets/images/me.jpeg'),
           ),
         ),
       ),
