@@ -16,8 +16,7 @@ class ContactDesktop extends StatelessWidget {
     var theme = Theme.of(context);
     Size size = MediaQuery.of(context).size;
     return Container(
-      // padding: Space.all(1, 1),
-      // padding: EdgeInsets.symmetric(horizontal: AppDimensions.normalize(30)),
+
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
@@ -36,7 +35,6 @@ class ContactDesktop extends StatelessWidget {
               boxShadow: [blackColorShadow],
             ),
             child: Column(
-              // crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -63,7 +61,6 @@ class ContactDesktop extends StatelessWidget {
                           ),
                         ),
                         Space.y(2.w)!,
-                        // SizedBox(height: AppDimensions.space(3)),
                       ],
                     ),
                     InkWell(
@@ -73,8 +70,7 @@ class ContactDesktop extends StatelessWidget {
                             vertical: 5, horizontal: 20),
                         decoration: BoxDecoration(
                             gradient: buttonGradi,
-                            // border: Border.all(
-                            //     width: 2.0, color: theme.primaryColor),
+                           
                             borderRadius: BorderRadius.circular(10)),
                         child: const Text(
                           'Get Started',
@@ -109,7 +105,7 @@ class ContactDesktop extends StatelessWidget {
               ],
             ),
           ),
-          // Space.y!,
+         
         ],
       ),
     );
