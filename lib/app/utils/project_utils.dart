@@ -23,7 +23,7 @@ List<ProjectUtils> projectUtils = [
     links: 'https://github.com/sudeshnb/poetically-.git',
   ),
   ProjectUtils(
-    banners: 'assets/images/1.png',
+    banners: 'assets/images/01.png',
     icons: 'assets/images/flutter.png',
     titles: 'Awesome CRM UI',
     description:

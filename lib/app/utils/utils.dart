@@ -9,7 +9,6 @@ import 'package:portfolio/app/widgets/footer.dart';
 class BodyUtils {
   static const List<Widget> views = [
     HomePage(),
-    // About(),
     Services(),
     Portfolio(),
     Contact(),
