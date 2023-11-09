@@ -15,19 +15,19 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
-    banners: 'assets/images/02.png',
-    icons: 'assets/images/flutter.png',
-    titles: 'Awesome Social Media App',
-    description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/poetically-.git',
-  ),
-  ProjectUtils(
     banners: 'assets/images/01.png',
     icons: 'assets/images/flutter.png',
-    titles: 'Awesome CRM UI',
+    titles: 'Awesome Money management application',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
+        'This is a Fully functional Money management application App by using flutter, source code is also available, check below.',
+    links: 'https://github.com/BIBINKB97/BillsBook-with-Provider',
+  ),
+  ProjectUtils(
+    banners: 'assets/images/03.png',
+    icons: 'assets/images/flutter.png',
+    titles: 'Awesome Todo application',
+    description:
+        'This a Todo application using Flutter, source code is also available, check below.',
     links: 'https://github.com/sudeshnb/',
   ),
   ProjectUtils(
