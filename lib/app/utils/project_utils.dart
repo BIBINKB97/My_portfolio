@@ -33,10 +33,9 @@ List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/images/03.png',
     icons: 'assets/images/flutter.png',
-    titles: 'Exercise App',
-    description:
-        '',
-    links: '',
+    titles: 'BMI Calculator app',
+    description: '',
+    links: 'https://github.com/BIBINKB97/bmi_calculator',
   ),
   ProjectUtils(
     banners: 'assets/images/04.png',

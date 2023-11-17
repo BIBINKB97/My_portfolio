@@ -1,10 +1,8 @@
 
 import 'package:portfolio/app/sections/home/widgets/animation_text.dart';
 import 'package:portfolio/app/widgets/color_chage_btn.dart';
-import 'package:portfolio/changes/img.dart';
 import 'package:portfolio/changes/links.dart';
 import 'package:portfolio/changes/strings.dart';
-import 'package:portfolio/core/animations/entrance_fader.dart';
 import 'package:portfolio/core/animations/zoom_animation.dart';
 import 'package:portfolio/core/configs/configs.dart';
 import 'package:portfolio/core/res/responsive_size.dart';
@@ -44,12 +42,7 @@ class HomeDesktop extends StatelessWidget {
                             fontSize: 25,
                             fontWeight: FontWeight.w100,
                           )),
-                      EntranceFader(
-                        offset: const Offset(0, 0),
-                        delay: const Duration(seconds: 2),
-                        duration: const Duration(milliseconds: 800),
-                        child: Image.asset(StaticImage.hi, height: 40),
-                      ),
+                      
                     ],
                   ),
                   Space.y(0.5.w)!,

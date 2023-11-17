@@ -1,7 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/app/widgets/color_chage_btn.dart';
-import 'package:portfolio/changes/img.dart';
 import 'package:portfolio/changes/links.dart';
 import 'package:portfolio/changes/strings.dart';
 import 'package:portfolio/core/animations/entrance_fader.dart';
@@ -33,7 +32,7 @@ class HomeMobile extends StatelessWidget {
                 style: AppText.h3!.copyWith(fontSize: isFontSize(context, 16)),
               ),
               // Space.x!,
-              Image.asset(StaticImage.hi, height: 10.sp),
+             
             ],
           ),
           // Space.y(1.w)!,
