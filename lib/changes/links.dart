@@ -1,4 +1,4 @@
-// CV
+
 const String resume = '';
 
 const String gitHub = 'https://github.com/BIBINKB97';

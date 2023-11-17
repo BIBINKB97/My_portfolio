@@ -15,34 +15,34 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
-    banners: 'assets/images/01.png',
+    banners: 'assets/images/01.jpeg',
     icons: 'assets/images/flutter.png',
     titles: 'Awesome Money management application',
     description:
-        'A Fully functional Money management application App by using flutter, source code is also available, check below.',
+        'A Fully functional Money management application built using flutter, click here to see the source code.',
     links: 'https://github.com/BIBINKB97/BillsBook-with-Provider',
   ),
   ProjectUtils(
-    banners: 'assets/images/03.png',
+    banners: 'assets/images/02.jpeg',
     icons: 'assets/images/flutter.png',
     titles: 'Todo application',
     description:
-        'A Todo application using Flutter, source code is also available, check below.',
+        'A Todo application built using Flutter, click here to see the source code.',
     links: 'https://github.com/BIBINKB97/Todo_app_with_Hive',
   ),
   ProjectUtils(
-    banners: 'assets/images/03.png',
+    banners: 'assets/images/03.jpeg',
     icons: 'assets/images/flutter.png',
     titles: 'BMI Calculator app',
-    description: '',
+    description: 'This is a Body Mass Index (BMI) calculator application built using Flutter. Click here to see the source code.',
     links: 'https://github.com/BIBINKB97/bmi_calculator',
   ),
   ProjectUtils(
-    banners: 'assets/images/04.png',
+    banners: 'assets/images/04.jpeg',
     icons: 'assets/images/flutter.png',
     titles: 'Chat Application',
     description:
-        'This is a Chat Application  using flutter, source code is also available, check below.',
+        'This is a Chat Application built using flutter,Click here to see the source code.',
     links: 'https://github.com/BIBINKB97/Talkaro_chatApp',
   ),
 ];
