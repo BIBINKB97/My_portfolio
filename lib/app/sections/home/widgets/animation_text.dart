@@ -10,9 +10,7 @@ List<TyperAnimatedText> desktopList = [
   TyperAnimatedText(animationtxt2,
       speed: const Duration(milliseconds: 50),
       textStyle: AppText.h2!.copyWith(fontSize: 32)),
-  // TyperAnimatedText(animationtxt3,
-  //     speed: const Duration(milliseconds: 50),
-  //     textStyle: AppText.h2!.copyWith(fontSize: 32))
+
 ];
 
 List<TyperAnimatedText> tabList = [
@@ -22,9 +20,7 @@ List<TyperAnimatedText> tabList = [
   TyperAnimatedText(animationtxt2,
       speed: const Duration(milliseconds: 50),
       textStyle: AppText.h2!.copyWith(fontSize: 20)),
-  // TyperAnimatedText(animationtxt3,
-  //     speed: const Duration(milliseconds: 50),
-  //     textStyle: AppText.h2!.copyWith(fontSize: 20))
+
 ];
 List<TyperAnimatedText> mobileList = [
   TyperAnimatedText(animationtxt1,
@@ -33,7 +29,5 @@ List<TyperAnimatedText> mobileList = [
   TyperAnimatedText(animationtxt2,
       speed: const Duration(milliseconds: 50),
       textStyle: AppText.h2!.copyWith(fontSize: 16)),
-  // TyperAnimatedText(animationtxt3,
-  //     speed: const Duration(milliseconds: 50),
-  //     textStyle: AppText.h2!.copyWith(fontSize: 16))
+
 ];

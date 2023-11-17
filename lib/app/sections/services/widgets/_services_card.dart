@@ -29,10 +29,8 @@ class _ServiceCardState extends State<_ServiceCard> {
       },
       child: Container(
         width: Responsive.isTablet(context) ? 400 : 300,
-        // height: AppDimensions.normalize(100),
         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
         decoration: BoxDecoration(
-          // gradient: isHover ? pinkpurple : grayBack,
           gradient: isHover ? pinkpurple : theme.serviceCard,
           borderRadius: BorderRadius.circular(15),
           boxShadow: isHover ? [primaryColorShadow] : [blackColorShadow],
